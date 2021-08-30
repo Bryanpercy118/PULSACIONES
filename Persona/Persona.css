@@ -1,0 +1,37 @@
+
+body{
+    
+    background: url(/img/ff.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.tps{
+color: white;
+ text-align: center;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.selection{
+    color: white;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.selection #txtidentificacion{
+    margin-right: 20%;
+}
+.selection #txtname{
+ margin-right: 20%;
+}
+.selection #txtedad{
+    margin-right: 20%;
+}
+
+.span{
+    color: white;
+    margin-left: 40%;
+    margin-top: -15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}

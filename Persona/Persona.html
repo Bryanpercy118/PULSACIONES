@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsaciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="Persona.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">BP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=" ">Pulsaciones</a>
+            </li>
+          </ul>
+        </div>
+   </nav>
+    <div class="tps">
+     <h1>Pulsaciones </h1>
+    </div>
+    
+        <div class="selection">
+      
+          <table>
+            <tr>
+             <th>
+                 Digite Identificacion: 
+                <input type="text" id="txtidentificacion">
+             </th>
+            </tr>
+            <tr>
+                <th>
+                    <br>
+                Digite Nombre:
+                    <input type="text" id="txtname">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <br>
+                Digite Edad:
+                    <input type="text" id="txtedad">
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <br>
+                    Sexo:
+                    <select  id="dlist" onchange=calcularPulsacion()>
+                        <option value=" ">Seleccionar</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino ">Femenino</option>
+                    </select>
+                </th>
+            </tr>
+
+          </table>
+        </div>
+        <script src="pulsacion.js"></script>
+        <div class="span">
+            <span id= "lblname"></span>
+            <br>
+            <br>
+            <span id="lblpulsacion"></span>
+        </div>
+       
+    
+   
+</body>
+</html>
